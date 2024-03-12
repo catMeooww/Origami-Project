@@ -1,16 +1,7 @@
-#title{
-    font-family: 'Courier New', Courier, monospace;
-    text-shadow: 5px 5px 5px #eeeeee;
-}
-
-a{
-    color: #0040ff;
-}
-
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color:#000000;
+    background-color: black;
     padding: 15px;
     font-size: 20px;
     font-family: sans-serif;
@@ -19,12 +10,41 @@ a{
 }
 body{
     margin: 0px;
-    /* modifique a cor de fundo aqui*/
-    background-color:#008080;
+    background-color:#f7f2f2;
     
+}
+a{
+    text-decoration :none
+}
+a:link{
+    color:#ffffff;
 }
 
 
+a:visited{
+    color: #ffffff;
+}
+.header{
+    position: fixed;
+    width: 100%;
+}
+.bodyimg p{
+    color:#f7f2f2;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.bodyimg h3{
+    color:#f7f2f2;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1600px;
+    position: absolute;
+    top:40%;
+}
 .grid{
     display: flex;
     flex-wrap: wrap;
@@ -33,17 +53,21 @@ body{
     
 }
 .grid img{
-    border: 2px solid #000000;
+    border: 2px solid black;
     border-radius: 50px;
 }
 .origami {
     
     border-radius: 20px;
     background-color: #ffffff;
-    /* modifique a margem e o preenchimento aqui*/
     padding: 30px;
     margin: 25px;
     width:310px;
     font-family: fantasy;
     
+}
+
+ .origami:hover{ 
+
+    transform: scale(1.2);
 }
